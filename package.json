@@ -1,0 +1,23 @@
+{
+  "name": "multi-sig",
+  "version": "1.0.0",
+  "description": "Multi-signature wallet for erc20 and native eths",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.4",
+    "hardhat-deploy": "^0.11.45"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1"
+  }
+}
